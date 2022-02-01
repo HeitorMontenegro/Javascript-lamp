@@ -1,0 +1,22 @@
+header, main, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    margin: 150px;
+}
+
+.btns-container{
+display: flex;
+align-items:center;
+}
+
+.btns{
+    margin: 0 15px;
+    width: 90px;
+    display: table-cell;
+    align-items: center;
+    text-align: center;
+}
